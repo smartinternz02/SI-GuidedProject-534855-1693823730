@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Blog - FlexStart Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: Aug 30 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>FlexStart</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="#">Column 1 link 1</a>
+                <a href="#">Column 1 link 2</a>
+                <a href="#">Column 1 link 3</a>
+              </li>
+              <li>
+                <a href="#">Column 2 link 1</a>
+                <a href="#">Column 2 link 2</a>
+                <a href="#">Column 3 link 3</a>
+              </li>
+              <li>
+                <a href="#">Column 3 link 1</a>
+                <a href="#">Column 3 link 2</a>
+                <a href="#">Column 3 link 3</a>
+              </li>
+              <li>
+                <a href="#">Column 4 link 1</a>
+                <a href="#">Column 4 link 2</a>
+                <a href="#">Column 4 link 3</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Blog</li>
+        </ol>
+        <h2>Blog</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry">
+
+              <div class="entry-img">
+                <img src="data:image/jpeg;base64,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" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="blog-single.html">Unveiling The Virtual Classroom: An In-Depth Analysis Of The Online Education System</a>
+              </h2>
+
+              
+
+              <div class="entry-content">
+                <p>
+                  Online classes and technology have emerged as a superhero during the lockdown days. We have all been under house arrest but are still connected with the world of education. Due to the lockdown, students have not been able to stay connected with the outer world and the lack of exposure is evident. The only reprieve for the students’ mental well-being has been the transition to online classes. Teachers made sure that the learning for students was not compromised, so they took a great leap forward to find solutions and create new learning environments for their students to ensure that learning never stops. With the rapid advancements in technology and the widespread availability of internet access, online education has gained significant popularity in recent years.
+
+                  This project aims to delve deep into the various aspects of online education, examining its strengths, weaknesses, opportunities, and challenges. The outcomes of this project will provide valuable insights for educational institutions, policymakers, and online learning platforms to enhance the effectiveness and accessibility of online education. This analysis of the online education system aims to contribute to the ongoing dialogue on the future of education and help shape a more inclusive, engaging, and effective learning environment in the digital age. 
+                
+              </div>
+
+            </article><!-- End blog entry -->
+
+                               
+
+            
+
+          </div><!-- End blog entries list -->
+
+          <div class="col-lg-4">
+
+            <div class="sidebar">
+
+              <h3 class="sidebar-title">Search</h3>
+              <div class="sidebar-item search-form">
+                <form action="">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
+
+              <h3 class="sidebar-title">Categories</h3>
+              <div class="sidebar-item categories">
+                <ul>
+                  <li><a href="#">General <span>(25)</span></a></li>
+                  <li><a href="#">Lifestyle <span>(12)</span></a></li>
+                  <li><a href="#">Travel <span>(5)</span></a></li>
+                  <li><a href="#">Design <span>(22)</span></a></li>
+                  <li><a href="#">Creative <span>(8)</span></a></li>
+                  <li><a href="#">Educaion <span>(14)</span></a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
+
+              <h3 class="sidebar-title">Recent Posts</h3>
+              <div class="sidebar-item recent-posts">
+                <div class="post-item clearfix">
+                  <img src="assets/img/blog/blog-recent-1.jpg" alt="">
+                  <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="assets/img/blog/blog-recent-2.jpg" alt="">
+                  <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="assets/img/blog/blog-recent-3.jpg" alt="">
+                  <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="assets/img/blog/blog-recent-4.jpg" alt="">
+                  <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+                <div class="post-item clearfix">
+                  <img src="assets/img/blog/blog-recent-5.jpg" alt="">
+                  <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                  <time datetime="2020-01-01">Jan 1, 2020</time>
+                </div>
+
+              </div><!-- End sidebar recent posts-->
+
+              <h3 class="sidebar-title">Tags</h3>
+              <div class="sidebar-item tags">
+                <ul>
+                  <li><a href="#">App</a></li>
+                  <li><a href="#">IT</a></li>
+                  <li><a href="#">Business</a></li>
+                  <li><a href="#">Mac</a></li>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">Office</a></li>
+                  <li><a href="#">Creative</a></li>
+                  <li><a href="#">Studio</a></li>
+                  <li><a href="#">Smart</a></li>
+                  <li><a href="#">Tips</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+              </div><!-- End sidebar tags-->
+
+            </div><!-- End sidebar -->
+
+          </div><!-- End blog sidebar -->
+
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>FlexStart</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
